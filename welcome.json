@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Food",
+      "price": 29.99,
+      "image": "assets/suggest/food.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mart",
+      "price": 39.99,
+      "image": "assets/suggest/mart.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Electronic",
+      "price": 49.99,
+      "image": "assets/suggest/electronic.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beauty",
+      "price": 49.99,
+      "image": "assets/suggest/beauty.jpg"
+    }
+  ],
+
+  "mvbanners": [
+    {
+      "id": 1,
+      "name": "Banner 1",
+      "image": "assets/mv/mv01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Banner 2",
+      "image": "assets/mv/mv02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Banner 3",
+      "image": "assets/mv/mv03.jpg"
+    }
+  ],
+
+  "trendings" :[
+      {
+        "id": 1,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending1.png"
+      },
+      {
+        "id": 2,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/trending/trending2.png"
+      },
+      {
+        "id": 3,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending3.png"
+      },
+      {
+        "id": 4,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/trending/trending4.png"
+      }
+  ],
+
+  "offerdata" : [
+      {
+        "id": 1,
+        "name": "30% Off on Seoul k(Bahan)",
+        "image": "assets/img_offer01.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/img_offer02.jpg"
+      },
+      {
+        "id": 3,
+        "name": "The osahan Restaurant",
+        "image": "assets/img_offer01.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/img_offer02.jpg"
+      }
+  ],
+
+  "adsdata" : [
+    {
+      "id": 1,
+      "name": "The osahan Restaurant",
+      "video":
+        "https://www.youtube.com/embed/4X_e3UWS9aA?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+    },
+    {
+      "id": 2,
+      "name": "Thai Famous Cuisine",
+      "video":
+        "https://www.youtube.com/embed/PTZ-kZ1Zo-A?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+    },
+    {
+      "id": 3,
+      "name": "The osahan Restaurant",
+      "video":
+        "https://www.youtube.com/embed/QvB8dG9tdGc?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+    }
+  ],
+
+  "dpitems" : [
+      {
+        "id": 1,
+        "name": "The osahan Restaurant",
+        "image": "assets/daily-promotion/img_promotion01.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/daily-promotion/img_promotion02.jpg"
+      },
+      {
+        "id": 3,
+        "name": "The osahan Restaurant",
+        "image": "assets/daily-promotion/img_promotion03.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/daily-promotion/img_promotion04.jpg"
+      }
+  ],
+
+  "popularitems" : [
+    {
+      "id": 1,
+      "name": "The osahan Restaurant",
+      "image": "assets/trending/trending2.png"
+    },
+    {
+      "id": 2,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/trending/trending2.png"
+    },
+    {
+      "id": 3,
+      "name": "The osahan Restaurant",
+      "image": "assets/trending/trending2.png"
+    },
+    {
+      "id": 4,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/daily-promotion/img_promotion04.jpg"
+    }
+  ],
+
+  "items" : [
+    {
+      "id": 1,
+      "image": "assets/items/img_86beer.png",
+      "name": "Premium Single Malt Whiskey",
+      "price": 49.99,
+      "old_price": 59.99,
+      "discount_percentage": 17
+    },
+    {
+      "id": 2,
+      "image": "assets/items/img_chang.png",
+      "name": "Imported Russian Vodka",
+      "price": 29.99,
+      "old_price": 34.99,
+      "discount_percentage": 14
+    },
+    {
+      "id": 3,
+      "image": "assets/items/img_86beer.png",
+      "name": "Caribbean Spiced Rum",
+      "price": 39.99,
+      "old_price": 49.99,
+      "discount_percentage": 20
+    },
+    {
+      "id": 4,
+      "image": "assets/items/img_chang.png",
+      "name": "London Dry Gin",
+      "price": 24.99,
+      "old_price": 29.99,
+      "discount_percentage": 17
+    },
+    {
+      "id": 5,
+      "image": "assets/items/img_86beer.png",
+      "name": "Irish Cream Liqueur",
+      "price": 34.99,
+      "old_price": 39.99,
+      "discount_percentage": 13
+    },
+    {
+      "id": 6,
+      "image": "assets/items/img_chang.png",
+      "name": "Bourbon Barrel-Aged Whiskey",
+      "price": 54.99,
+      "old_price": 64.99,
+      "discount_percentage": 15
+    },
+    {
+      "id": 7,
+      "image": "assets/items/img_86beer.png",
+      "name": "Japanese Sake Infused Vodka",
+      "price": 44.99,
+      "old_price": 49.99,
+      "discount_percentage": 10
+    },
+    {
+      "id": 8,
+      "image": "assets/items/img_chang.png",
+      "name": "Tropical Pineapple Coconut Rum",
+      "price": 29.99,
+      "old_price": 34.99,
+      "discount_percentage": 14
+    },
+    {
+      "id": 9,
+      "image": "assets/items/img_86beer.png",
+      "name": "Citrus-Infused Mediterranean Gin",
+      "price": 37.99,
+      "old_price": 42.99,
+      "discount_percentage": 12
+    },
+    {
+      "id": 10,
+      "image": "assets/items/img_chang.png",
+      "name": "Hazelnut Chocolate Liqueur",
+      "price": 31.99,
+      "old_price": 36.99,
+      "discount_percentage": 14
+    }
+  ],
+
+  "status": "success"
+}

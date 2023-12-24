@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fruits"
+    },
+    {
+      "id": 2,
+      "name": "Vegetables"
+    },
+    {
+      "id": 3,
+      "name": "Dairy"
+    },
+    {
+      "id": 4,
+      "name": "Meat"
+    },
+    {
+      "id": 5,
+      "name": "Beverages"
+    },
+    {
+      "id": 6,
+      "name": "Bread"
+    },
+    {
+      "id": 7,
+      "name": "Canned"
+    },
+    {
+      "id": 8,
+      "name": "Frozen"
+    },
+    {
+      "id": 9,
+      "name": "Dry/Baking"
+    },
+    {
+      "id": 10,
+      "name": "Personal Care"
+    },
+    {
+      "id": 11,
+      "name": "Household"
+    },
+    {
+      "id": 12,
+      "name": "Other"
+    }
+  ],
+
+  "foods": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "category": 1,
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "category": 1,
+      "price": 0.99
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "category": 1,
+      "price": 1.49
+    },
+    {
+      "id": 4,
+      "name": "Carrot",
+      "category": 2,
+      "price": 0.79
+    },
+    {
+      "id": 5,
+      "name": "Celery",
+      "category": 2,
+      "price": 1.29
+    },
+    {
+      "id": 6,
+      "name": "Cucumber",
+      "category": 2,
+      "price": 1.49
+    },
+    {
+      "id": 7,
+      "name": "Milk",
+      "category": 3,
+      "price": 2.99
+    },
+    {
+      "id": 8,
+      "name": "Yogurt",
+      "category": 3,
+      "price": 1.99
+    },
+    {
+      "id": 9,
+      "name": "Cheese",
+      "category": 3,
+      "price": 3.99
+    },
+    {
+      "id": 10,
+      "name": "Chicken",
+      "category": 4,
+      "price": 5.99
+    },
+    {
+      "id": 11,
+      "name": "Beef",
+      "category": 4,
+      "price": 9.99
+    },
+    {
+      "id": 12,
+      "name": "Pork",
+      "category": 4,
+      "price": 7.99
+    },
+    {
+      "id": 13,
+      "name": "Beer",
+      "category": 5,
+      "price": 9.99
+    },
+    {
+      "id": 14,
+      "name": "Wine",
+      "category": 5,
+      "price": 14.99
+    },
+    {
+      "id": 15,
+      "name": "Soda",
+      "category": 5,
+      "price": 2.99
+    }
+ ],
+ "status" : "success"  
+}

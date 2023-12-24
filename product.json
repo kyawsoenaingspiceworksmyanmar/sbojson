@@ -1,0 +1,175 @@
+{
+  "foods": [
+    {
+      "name": "Fruits",
+      "products": [
+        {
+          "name": "Apple",
+          "price": 1.99
+        },
+        {
+          "name": "Banana",
+          "price": 0.99
+        },
+        {
+          "name": "Orange",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "products": [
+        {
+          "name": "Carrot",
+          "price": 0.79
+        },
+        {
+          "name": "Broccoli",
+          "price": 1.29
+        },
+        {
+          "name": "Tomato",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "name": "Dairy",
+      "products": [
+        {
+          "name": "Milk",
+          "price": 2.49
+        },
+        {
+          "name": "Cheese",
+          "price": 3.99
+        },
+        {
+          "name": "Yogurt",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "name": "Meat",
+      "products": [
+        {
+          "name": "Chicken",
+          "price": 4.99
+        },
+        {
+          "name": "Beef",
+          "price": 6.99
+        },
+        {
+          "name": "Pork",
+          "price": 5.49
+        }
+      ]
+    },
+    {
+      "name": "Bakery",
+      "products": [
+        {
+          "name": "Bread",
+          "price": 2.99
+        },
+        {
+          "name": "Bagel",
+          "price": 1.49
+        },
+        {
+          "name": "Croissant",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "products": [
+        {
+          "name": "Chips",
+          "price": 1.99
+        },
+        {
+          "name": "Cookies",
+          "price": 2.49
+        },
+        {
+          "name": "Pretzels",
+          "price": 1.79
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "products": [
+        {
+          "name": "Water",
+          "price": 0.99
+        },
+        {
+          "name": "Soda",
+          "price": 1.49
+        },
+        {
+          "name": "Juice",
+          "price": 2.49
+        }
+      ]
+    },
+    {
+      "name": "Canned Goods",
+      "products": [
+        {
+          "name": "Soup",
+          "price": 1.29
+        },
+        {
+          "name": "Beans",
+          "price": 0.99
+        },
+        {
+          "name": "Tomato Sauce",
+          "price": 1.49
+        }
+      ]
+    },
+    {
+      "name": "Frozen Foods",
+      "products": [
+        {
+          "name": "Pizza",
+          "price": 3.99
+        },
+        {
+          "name": "Ice Cream",
+          "price": 4.49
+        },
+        {
+          "name": "Frozen Vegetables",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "name": "Condiments",
+      "products": [
+        {
+          "name": "Ketchup",
+          "price": 1.49
+        },
+        {
+          "name": "Mustard",
+          "price": 1.29
+        },
+        {
+          "name": "Mayonnaise",
+          "price": 1.99
+        }
+      ]
+    }
+  ],
+  "status" : "success"
+}
