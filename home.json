@@ -1,283 +1,344 @@
 {
-  "features": {
-    "ads_view_one_show": true,
-    "ads_view_one_title": "Promotion",
-    "market_tag_show": true,
-    "market_tag_title": "လွယ်ကူစွာ၊ဝယ်ယူနိုင်သောပစ္စည်းများ"
-  },
-  "mvbanners": [
-    {
-      "id": 1,
-      "name": "Banner 1",
-      "image": "https://i.ibb.co/VYq9MP1/mv01.jpg"
+    "features" : {
+        "ads_view_one_show" : true,
+        "ads_view_one_title" : "Recommended for you",
+        "market_tag_show": true,
+        "market_tag_title" : {
+          "en" : "Easy to buy",
+          "mm" : "လွယ်ကူစွာ၊ဝယ်ယူနိုင်သောပစ္စည်းများ"
+        },
+        "promotion_show" : true,
+        "promotion_title" : {
+          "en" : "Promotion",
+          "mm" : "ပရိုမိုးရှင်းများ"
+        },
+        "time_order_show" : true,
+        "time_order_title" : {
+          "en" : "Lunch Time Order",
+          "mm" : "နေ့လည်စာ အစားအစာများ"
+        },
+        "noticeboard_show" : true,
+        "noticeboard_title" : {
+          "en" : "Announcement",
+          "mm" : "အစီအစဥ်အသစ်များ ကြည့်ရန်"
+        }
     },
-    {
-      "id": 2,
-      "name": "Banner 2",
-      "image": "https://i.ibb.co/8P7cGct/mv02.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Banner 3",
-      "image": "https://i.ibb.co/PYhtGJm/mv03.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Banner 4",
-      "image": "https://i.ibb.co/R4hmGLm/mv04.jpg"
-    }
-  ],
-  "ads_view_one": [
-    {
-      "id": 1,
-      "is_image": false,
-      "name": "The osahan Restaurant",
-      "description": "This is ads.",
-      "external_url": "https://www.google.com",
-      "media_url": "https://www.youtube.com/embed/4X_e3UWS9aA?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
-    },
-    {
-      "id": 2,
-      "is_image": true,
-      "name": "The osahan Restaurant",
-      "description": "This is ads.",
-      "external_url": "https://www.google.com",
-      "media_url": "https://i.ibb.co/3yjK6f9/20281516-6226438.jpg"
-    },
-    {
-      "id": 3,
-      "is_image": false,
-      "name": "The osahan Restaurant",
-      "description": "This is ads.",
-      "external_url": "https://www.google.com",
-      "media_url": "https://www.youtube.com/embed/QvB8dG9tdGc?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
-    },
-    {
-      "id": 4,
-      "is_image": true,
-      "name": "The osahan Restaurant",
-      "description": "This is ads.",
-      "external_url": "https://www.google.com",
-      "media_url": "https://i.ibb.co/3yjK6f9/20281516-6226438.jpg"
-    }
-  ],
-  "market_tags": [
-    {
-      "id": 1,
-      "name": "Liquor",
-      "image": "https://i.ibb.co/CbJpGVB/img-market-tag01.png"
-    },
-    {
-      "id": 2,
-      "name": "Beauty and Healthy",
-      "image": "https://i.ibb.co/vDR6Dpc/img-market-tag02.png"
-    },
-    {
-      "id": 3,
-      "name": "Personal Care",
-      "image": "https://i.ibb.co/JyRFQ6v/img-market-tag03.png"
-    },
-    {
-      "id": 4,
-      "name": "Cake& Dessert",
-      "image": "https://i.ibb.co/xmmSYTg/img-market-tag04.jpg"
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Food",
-      "price": 33.55,
-      "image": "assets/suggest/food.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Mart",
-      "price": 39.99,
-      "image": "assets/suggest/mart.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Electronic",
-      "price": 49.99,
-      "image": "assets/suggest/electronic.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Beauty",
-      "price": 49.99,
-      "image": "assets/suggest/beauty.jpg"
-    }
-  ],
-  "trendings": [
-    {
-      "id": 1,
-      "name": "The osahan Restaurant",
-      "image": "assets/trending/trending1.png"
-    },
-    {
-      "id": 2,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/trending/trending2.png"
-    },
-    {
-      "id": 3,
-      "name": "The osahan Restaurant",
-      "image": "assets/trending/trending3.png"
-    },
-    {
-      "id": 4,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/trending/trending4.png"
-    }
-  ],
-  "offerdata": [
-    {
-      "id": 1,
-      "name": "40% Off SBO Liquor Store",
-      "image": "assets/img_offer01.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/img_offer02.jpg"
-    },
-    {
-      "id": 3,
-      "name": "The osahan Restaurant",
-      "image": "assets/img_offer01.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/img_offer02.jpg"
-    }
-  ],
-  "dpitems": [
-    {
-      "id": 1,
-      "name": "The osahan Restaurant",
-      "image": "assets/daily-promotion/img_promotion01.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/daily-promotion/img_promotion02.jpg"
-    },
-    {
-      "id": 3,
-      "name": "The osahan Restaurant",
-      "image": "assets/daily-promotion/img_promotion03.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/daily-promotion/img_promotion04.jpg"
-    }
-  ],
-  "popularitems": [
-    {
-      "id": 1,
-      "name": "The osahan Restaurant",
-      "image": "assets/trending/trending2.png"
-    },
-    {
-      "id": 2,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/trending/trending2.png"
-    },
-    {
-      "id": 3,
-      "name": "The osahan Restaurant",
-      "image": "assets/trending/trending2.png"
-    },
-    {
-      "id": 4,
-      "name": "Thai Famous Cuisine",
-      "image": "assets/daily-promotion/img_promotion04.jpg"
-    }
-  ],
-  "items": [
-    {
-      "id": 1,
-      "image": "assets/items/img_86beer.png",
-      "name": "Premium Single Malt Whiskey",
-      "price": 49.99,
-      "old_price": 59.99,
-      "discount_percentage": 17
-    },
-    {
-      "id": 2,
-      "image": "assets/items/img_chang.png",
-      "name": "Imported Russian Vodka",
-      "price": 29.99,
-      "old_price": 34.99,
-      "discount_percentage": 14
-    },
-    {
-      "id": 3,
-      "image": "assets/items/img_86beer.png",
-      "name": "Caribbean Spiced Rum",
-      "price": 39.99,
-      "old_price": 49.99,
-      "discount_percentage": 20
-    },
-    {
-      "id": 4,
-      "image": "assets/items/img_chang.png",
-      "name": "London Dry Gin",
-      "price": 24.99,
-      "old_price": 29.99,
-      "discount_percentage": 17
-    },
-    {
-      "id": 5,
-      "image": "assets/items/img_86beer.png",
-      "name": "Irish Cream Liqueur",
-      "price": 34.99,
-      "old_price": 39.99,
-      "discount_percentage": 13
-    },
-    {
-      "id": 6,
-      "image": "assets/items/img_chang.png",
-      "name": "Bourbon Barrel-Aged Whiskey",
-      "price": 54.99,
-      "old_price": 64.99,
-      "discount_percentage": 15
-    },
-    {
-      "id": 7,
-      "image": "assets/items/img_86beer.png",
-      "name": "Japanese Sake Infused Vodka",
-      "price": 44.99,
-      "old_price": 49.99,
-      "discount_percentage": 10
-    },
-    {
-      "id": 8,
-      "image": "assets/items/img_chang.png",
-      "name": "Tropical Pineapple Coconut Rum",
-      "price": 29.99,
-      "old_price": 34.99,
-      "discount_percentage": 14
-    },
-    {
-      "id": 9,
-      "image": "assets/items/img_86beer.png",
-      "name": "Citrus-Infused Mediterranean Gin",
-      "price": 37.99,
-      "old_price": 42.99,
-      "discount_percentage": 12
-    },
-    {
-      "id": 10,
-      "image": "assets/items/img_chang.png",
-      "name": "Hazelnut Chocolate Liqueur",
-      "price": 31.99,
-      "old_price": 36.99,
-      "discount_percentage": 14
-    }
-  ],
-  "status": "success"
-}
+    "mvbanners": [
+        {
+            "id": 1,
+            "name": "Banner 1",
+            "image": "assets/mvbanner/mv01.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Banner 2",
+            "image": "assets/mvbanner/mv02.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Banner 3",
+            "image": "assets/mvbanner/mv03.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Banner 4",
+            "image": "assets/mvbanner/mv04.jpg"
+        }
+      ],
+
+    "ads_view_one" : [
+        {
+          "id": 1,
+          "is_image" : false,
+          "name": "The osahan Restaurant",
+          "description": "This is ads.",
+          "external_url":"https://www.google.com",
+          "media_url": "https://www.youtube.com/embed/4X_e3UWS9aA?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+        },
+        {
+          "id": 2,
+          "is_image" : true,
+          "name": "The osahan Restaurant",
+          "description": "This is ads.",
+          "external_url":"https://www.google.com",
+          "media_url" : "assets/ads_view_one/img_ads01.jpg"
+        },
+        {
+          "id": 3,
+          "is_image" : false,
+          "name": "The osahan Restaurant",
+          "description": "This is ads.",
+          "external_url":"https://www.google.com",
+          "media_url": "https://www.youtube.com/embed/QvB8dG9tdGc?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+        },
+        {
+            "id": 4,
+            "is_image" : true,
+            "name": "The osahan Restaurant",
+            "description": "This is ads.",
+            "external_url":"https://www.google.com",
+            "media_url" : "assets/ads_view_one/img_ads02.jpg"
+        }
+      ],
+
+    "market_tags" : [
+        {
+            "id": 1,
+            "name" : "Liquor",
+            "image" : "assets/market_tags/img_market_tag01.png"
+        },
+        {
+          "id": 2,
+          "name" : "Beauty and Healthy",
+          "image" : "assets/market_tags/img_market_tag02.png"
+        },
+        {
+          "id": 3,
+          "name" : "Personal Care",
+          "image" : "assets/market_tags/img_market_tag03.png"
+        },
+        {
+          "id": 4,
+          "name" : "Cake& Dessert",
+          "image" : "assets/market_tags/img_market_tag04.jpg"
+        }
+        
+    ],
+
+     "promotions" : [
+       {
+          "id": 1,
+          "discount_percentage": 10,
+          "destination": "market",
+          "destination_id": 1,
+          "destination_title": "ရွှေလိပ်ပြာ",
+          "image": "assets/mvbanner/mv01.jpg"
+        },
+        {
+          "id": 2,
+          "discount_percentage": 20,
+          "destination": "product",
+          "destination_id": 1,
+          "destination_title": "သွားတိုက်ဆေး",
+          "image": "assets/mvbanner/mv02.jpg"
+        },
+        {
+          "id": 3,
+          "discount_percentage": 30,
+          "destination": "restaurant",
+          "destination_id": 1,
+          "destination_title": "Coffee So So",
+          "image": "assets/mvbanner/mv03.jpg"
+        },
+        {
+          "id": 4,
+          "discount_percentage": 40,
+          "destination": "food",
+          "destination_id": 1,
+          "destination_title": "မာလာရှမ်းကော",
+          "image": "assets/mvbanner/mv04.jpg"
+        }
+    ],
+
+    "time_orders" :[
+      {
+        "id": 1,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending1.png"
+      },
+      {
+        "id": 2,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/trending/trending2.png"
+      },
+      {
+        "id": 3,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending3.png"
+      },
+      {
+        "id": 4,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/trending/trending4.png"
+      }
+    ],
+
+    "noticeboards" : [
+      {
+        "id": 1,
+        "destination" : "webpage",
+        "title": "The osahan Restaurant",
+        "description": "External Link",
+        "cover_image": "assets/trending/trending1.png",
+        "destination_location": "https://www.google.com",
+        "button_text" : "View More"
+      },
+      {
+        "id": 2,
+        "destination" : "restaurant",
+        "title": "Coffee So So",
+        "description": "စားသောက်ဆိုင်",
+        "cover_image": "assets/trending/trending2.png",
+        "destination_location": 1,
+        "button_text" : "ဒီမှာကြည့်ရန်"
+      },
+      {
+        "id": 3,
+        "destination" : "food",
+        "title": "မာလာရှမ်းကော",
+        "description": "အစားအစာ",
+        "cover_image": "assets/trending/trending3.png",
+        "destination_location": 1,
+        "button_text" : "ဒီမှာကြည့်ရန်"
+      },
+      {
+        "id": 4,
+        "destination" : "market",
+        "title": "ရွှေလိပ်ပြာ",
+        "description": "ကုန်စုံဆိုင်",
+        "cover_image": "assets/trending/trending4.png",
+        "destination_location": 1,
+        "button_text" : "ဒီမှာဝယ်ရန်"
+      },
+       {
+        "id": 5,
+        "destination" : "product",
+        "title": "သွားတိုက်ဆေး",
+        "description": "ကုန်ပစ္စည်း",
+        "cover_image": "assets/trending/trending2.png",
+        "destination_location": 1,
+        "button_text" : "ဒီမှာဝယ်ရန်"
+      }
+    ],
+  
+    "dpitems" : [
+        {
+          "id": 1,
+          "name": "The osahan Restaurant",
+          "image": "assets/daily-promotion/img_promotion01.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Thai Famous Cuisine",
+          "image": "assets/daily-promotion/img_promotion02.jpg"
+        },
+        {
+          "id": 3,
+          "name": "The osahan Restaurant",
+          "image": "assets/daily-promotion/img_promotion03.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Thai Famous Cuisine",
+          "image": "assets/daily-promotion/img_promotion04.jpg"
+        }
+    ],
+  
+    "popularitems" : [
+      {
+        "id": 1,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending2.png"
+      },
+      {
+        "id": 2,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/trending/trending2.png"
+      },
+      {
+        "id": 3,
+        "name": "The osahan Restaurant",
+        "image": "assets/trending/trending2.png"
+      },
+      {
+        "id": 4,
+        "name": "Thai Famous Cuisine",
+        "image": "assets/daily-promotion/img_promotion04.jpg"
+      }
+    ],
+  
+    "items" : [
+      {
+        "id": 1,
+        "image": "assets/items/img_86beer.png",
+        "name": "Premium Single Malt Whiskey",
+        "price": 49.99,
+        "old_price": 59.99,
+        "discount_percentage": 17
+      },
+      {
+        "id": 2,
+        "image": "assets/items/img_chang.png",
+        "name": "Imported Russian Vodka",
+        "price": 29.99,
+        "old_price": 34.99,
+        "discount_percentage": 14
+      },
+      {
+        "id": 3,
+        "image": "assets/items/img_86beer.png",
+        "name": "Caribbean Spiced Rum",
+        "price": 39.99,
+        "old_price": 49.99,
+        "discount_percentage": 20
+      },
+      {
+        "id": 4,
+        "image": "assets/items/img_chang.png",
+        "name": "London Dry Gin",
+        "price": 24.99,
+        "old_price": 29.99,
+        "discount_percentage": 17
+      },
+      {
+        "id": 5,
+        "image": "assets/items/img_86beer.png",
+        "name": "Irish Cream Liqueur",
+        "price": 34.99,
+        "old_price": 39.99,
+        "discount_percentage": 13
+      },
+      {
+        "id": 6,
+        "image": "assets/items/img_chang.png",
+        "name": "Bourbon Barrel-Aged Whiskey",
+        "price": 54.99,
+        "old_price": 64.99,
+        "discount_percentage": 15
+      },
+      {
+        "id": 7,
+        "image": "assets/items/img_86beer.png",
+        "name": "Japanese Sake Infused Vodka",
+        "price": 44.99,
+        "old_price": 49.99,
+        "discount_percentage": 10
+      },
+      {
+        "id": 8,
+        "image": "assets/items/img_chang.png",
+        "name": "Tropical Pineapple Coconut Rum",
+        "price": 29.99,
+        "old_price": 34.99,
+        "discount_percentage": 14
+      },
+      {
+        "id": 9,
+        "image": "assets/items/img_86beer.png",
+        "name": "Citrus-Infused Mediterranean Gin",
+        "price": 37.99,
+        "old_price": 42.99,
+        "discount_percentage": 12
+      },
+      {
+        "id": 10,
+        "image": "assets/items/img_chang.png",
+        "name": "Hazelnut Chocolate Liqueur",
+        "price": 31.99,
+        "old_price": 36.99,
+        "discount_percentage": 14
+      }
+    ],
+  
+    "status": "success"
+  }
