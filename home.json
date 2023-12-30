@@ -1,4 +1,88 @@
 {
+  "features": {
+    "ads_view_one_show": true,
+    "ads_view_one_title": "Promotion",
+    "market_tag_show": true,
+    "market_tag_title": "လွယ်ကူစွာ၊ဝယ်ယူနိုင်သောပစ္စည်းများ"
+  },
+  "mvbanners": [
+    {
+      "id": 1,
+      "name": "Banner 1",
+      "image": "https://i.ibb.co/VYq9MP1/mv01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Banner 2",
+      "image": "https://i.ibb.co/8P7cGct/mv02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Banner 3",
+      "image": "https://i.ibb.co/PYhtGJm/mv03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Banner 4",
+      "image": "https://i.ibb.co/R4hmGLm/mv04.jpg"
+    }
+  ],
+  "ads_view_one": [
+    {
+      "id": 1,
+      "is_image": false,
+      "name": "The osahan Restaurant",
+      "description": "This is ads.",
+      "external_url": "https://www.google.com",
+      "media_url": "https://www.youtube.com/embed/4X_e3UWS9aA?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+    },
+    {
+      "id": 2,
+      "is_image": true,
+      "name": "The osahan Restaurant",
+      "description": "This is ads.",
+      "external_url": "https://www.google.com",
+      "media_url": "https://i.ibb.co/3yjK6f9/20281516-6226438.jpg"
+    },
+    {
+      "id": 3,
+      "is_image": false,
+      "name": "The osahan Restaurant",
+      "description": "This is ads.",
+      "external_url": "https://www.google.com",
+      "media_url": "https://www.youtube.com/embed/QvB8dG9tdGc?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+    },
+    {
+      "id": 4,
+      "is_image": true,
+      "name": "The osahan Restaurant",
+      "description": "This is ads.",
+      "external_url": "https://www.google.com",
+      "media_url": "https://i.ibb.co/3yjK6f9/20281516-6226438.jpg"
+    }
+  ],
+  "market_tags": [
+    {
+      "id": 1,
+      "name": "Liquor",
+      "image": "https://i.ibb.co/CbJpGVB/img-market-tag01.png"
+    },
+    {
+      "id": 2,
+      "name": "Beauty and Healthy",
+      "image": "https://i.ibb.co/vDR6Dpc/img-market-tag02.png"
+    },
+    {
+      "id": 3,
+      "name": "Personal Care",
+      "image": "https://i.ibb.co/JyRFQ6v/img-market-tag03.png"
+    },
+    {
+      "id": 4,
+      "name": "Cake& Dessert",
+      "image": "https://i.ibb.co/xmmSYTg/img-market-tag04.jpg"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -25,116 +109,73 @@
       "image": "assets/suggest/beauty.jpg"
     }
   ],
-
-  "mvbanners": [
-    {
-      "id": 1,
-      "name": "Banner 1",
-      "image": "assets/mv/mv01.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Banner 2",
-      "image": "assets/mv/mv02.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Banner 3",
-      "image": "assets/mv/mv03.jpg"
-    }
-  ],
-
-  "trendings" :[
-      {
-        "id": 1,
-        "name": "The osahan Restaurant",
-        "image": "assets/trending/trending1.png"
-      },
-      {
-        "id": 2,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/trending/trending2.png"
-      },
-      {
-        "id": 3,
-        "name": "The osahan Restaurant",
-        "image": "assets/trending/trending3.png"
-      },
-      {
-        "id": 4,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/trending/trending4.png"
-      }
-  ],
-
-  "offerdata" : [
-      {
-        "id": 1,
-        "name": "40% Off SBO Liquor Store",
-        "image": "assets/img_offer01.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/img_offer02.jpg"
-      },
-      {
-        "id": 3,
-        "name": "The osahan Restaurant",
-        "image": "assets/img_offer01.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/img_offer02.jpg"
-      }
-  ],
-
-  "adsdata" : [
+  "trendings": [
     {
       "id": 1,
       "name": "The osahan Restaurant",
-      "video":
-        "https://www.youtube.com/embed/4X_e3UWS9aA?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+      "image": "assets/trending/trending1.png"
     },
     {
       "id": 2,
       "name": "Thai Famous Cuisine",
-      "video":
-        "https://www.youtube.com/embed/PTZ-kZ1Zo-A?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+      "image": "assets/trending/trending2.png"
     },
     {
       "id": 3,
       "name": "The osahan Restaurant",
-      "video":
-        "https://www.youtube.com/embed/QvB8dG9tdGc?rel=0&amp;autoplay=1&mute=1&loop=5&controls=0"
+      "image": "assets/trending/trending3.png"
+    },
+    {
+      "id": 4,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/trending/trending4.png"
     }
   ],
-
-  "dpitems" : [
-      {
-        "id": 1,
-        "name": "The osahan Restaurant",
-        "image": "assets/daily-promotion/img_promotion01.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/daily-promotion/img_promotion02.jpg"
-      },
-      {
-        "id": 3,
-        "name": "The osahan Restaurant",
-        "image": "assets/daily-promotion/img_promotion03.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Thai Famous Cuisine",
-        "image": "assets/daily-promotion/img_promotion04.jpg"
-      }
+  "offerdata": [
+    {
+      "id": 1,
+      "name": "40% Off SBO Liquor Store",
+      "image": "assets/img_offer01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/img_offer02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The osahan Restaurant",
+      "image": "assets/img_offer01.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/img_offer02.jpg"
+    }
   ],
-
-  "popularitems" : [
+  "dpitems": [
+    {
+      "id": 1,
+      "name": "The osahan Restaurant",
+      "image": "assets/daily-promotion/img_promotion01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/daily-promotion/img_promotion02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The osahan Restaurant",
+      "image": "assets/daily-promotion/img_promotion03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Thai Famous Cuisine",
+      "image": "assets/daily-promotion/img_promotion04.jpg"
+    }
+  ],
+  "popularitems": [
     {
       "id": 1,
       "name": "The osahan Restaurant",
@@ -156,8 +197,7 @@
       "image": "assets/daily-promotion/img_promotion04.jpg"
     }
   ],
-
-  "items" : [
+  "items": [
     {
       "id": 1,
       "image": "assets/items/img_86beer.png",
@@ -239,6 +279,5 @@
       "discount_percentage": 14
     }
   ],
-
   "status": "success"
 }
