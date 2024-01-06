@@ -56,7 +56,7 @@
         }
     ],
 
-    "upper_group_suggestions": [
+    "group_suggestions": [
         {
             "id": 1,
             "name": "Near Me",
@@ -84,33 +84,30 @@
             "description": "Discount",
             "image": "assets/suggest/img_salad.png",
             "bg_color": "#26a69a"
-        }
-    ],
-
-    "under_group_suggestions": [
+        },
         {
-            "id": 1,
+            "id": 5,
             "name": "Bugest-Friendly",
             "description": "Cheap and tasty",
             "image": "assets/suggest/img_salad.png",
             "bg_color": "#ff5722"
         },
         {
-            "id": 2,
+            "id": 6,
             "name": "Popular",
             "description": "Most popular",
             "image": "assets/suggest/img_salad.png",
             "bg_color": "#795548"
         },
         {
-            "id": 3,
+            "id": 7,
             "name": "New",
             "description": "Newest",
             "image": "assets/suggest/img_salad.png",
             "bg_color": "#607d8b"
         },
         {
-            "id": 4,
+            "id": 8,
             "name": "Discount",
             "description": "Discount",
             "image": "assets/suggest/img_salad.png",
@@ -348,6 +345,87 @@
         },
         {
            "id": 10,
+            "name": "Thai Famous Cuisine",
+            "image": "assets/trending/trending2.png",
+            "tags": [ 3, 4],
+            "rating": 4.5,
+            "discount_type": "some_items",
+            "discount": 10,
+            "promotion": true,
+            "free_delivery": false,
+            "delivery_distance": "5 km",
+            "delivery_time": "30 - 40 min"
+        }
+    ],
+
+    "filtered_restaurants": [
+        {
+            "id": 1,
+            "name": "The osahan Restaurant",
+            "image": "assets/trending/trending1.png",
+            "tags": [ 1, 2, 3],
+            "rating": 0,
+            "discount_type": null,
+            "discount": 0,
+            "promotion": false,
+            "free_delivery": false,
+            "delivery_distance": null,
+            "delivery_time": null
+        },
+        {
+           "id": 2,
+            "name": "Thai Famous Cuisine",
+            "image": "assets/trending/trending2.png",
+            "tags": [ 3, 4],
+            "rating": 4.5,
+            "discount_type": "some_items",
+            "discount": 10,
+            "promotion": true,
+            "free_delivery": false,
+            "delivery_distance": "5 km",
+            "delivery_time": "30 - 40 min"
+        },
+        {
+            "id": 3,
+            "name": "The osahan Restaurant",
+            "image": "assets/trending/trending3.png",
+            "tags": [ 1, 4],
+            "rating": 4.5,
+            "discount_type": "all_items",
+            "discount": 10,
+            "promotion": false,
+            "free_delivery": true,
+            "delivery_distance": "5 km",
+            "delivery_time": "30 - 40 min"
+        },
+        {
+            "id": 4,
+            "name": "Thai Famous Cuisine",
+            "image": "assets/trending/trending4.png",
+            "tags": [ 2, 3],
+            "rating": 0,
+            "discount_type": "some_items",
+            "discount": 10,
+            "promotion": true,
+            "free_delivery": false,
+            "delivery_distance": "5 km",
+            "delivery_time": "30 - 40 min"
+        },
+        {
+            "id": 5,
+            "name": "The osahan Restaurant",
+            "image": "assets/trending/trending1.png",
+            "tags": [ 1, 2, 3],
+            "rating": 0,
+            "discount_type": null,
+            "discount": 0,
+            "promotion": false,
+            "free_delivery": false,
+            "delivery_distance": null,
+            "delivery_time": null
+        },
+        {
+           "id": 6,
             "name": "Thai Famous Cuisine",
             "image": "assets/trending/trending2.png",
             "tags": [ 3, 4],
